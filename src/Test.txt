@@ -1,0 +1,28 @@
+import React, { useContext } from 'react'
+import { CartContext } from './Card';
+
+const Test = () => {
+    const Item=useContext(CartContext);
+
+    return (
+        <div>
+            <h2> Hello {Item}</h2>
+        </div>
+        <Form.Control
+                    as="select"
+                    value= {prod.qty}
+                    onChange={(e) =>
+                      dispatch({
+                        type: "CHANGE_CART_QTY",
+                        payload: {
+                          id: prod.id,
+                          qty: e.target.value,
+                        },
+                      })
+                    }
+                  >
+                  </Form.Control>
+    )
+}
+
+export default Test

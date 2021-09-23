@@ -1,0 +1,255 @@
+.links
+{
+    color:darkblue;
+    font-family: calibri light;
+    text-decoration: none;
+    float: none;
+    display: block;
+    list-style-type: none;
+    padding-left: 2px;
+
+
+}
+.heading
+{
+    text-align: center;
+}
+#body
+{
+    background-color: #f5dbf8;
+}
+.links:hover{
+  
+		transition:.4s;
+    color: blue;
+    border-bottom: 2px solid red;
+}
+.shopName
+{
+    color:rgb(109, 6, 122);
+    font-size: 80px;
+    margin-top: -350px;
+    text-shadow: 4px 4px rgb(252, 172, 255);
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+}
+.logo
+{
+    color:rgb(109, 6, 122);
+    text-shadow: 1px 1px rgb(252, 172, 255);
+
+}
+.logo:hover
+{
+    border-bottom:1px solid rgb(109, 6, 122) ;
+    transition: 0.5s;
+}
+.links:hover
+{
+    border-bottom:1px solid rgb(109, 6, 122) ;
+    transition: 0.5s;
+}
+@media only screen and (max-width: 670px) {
+    .shopName {
+      font-size: 50px;
+      text-shadow: 1px 1px rgb(252, 172, 255);
+      margin-left: -20px;
+      margin-top: -300px;        
+    }
+  }
+
+
+  #end
+  {
+      height: 500px;
+      width: 1300px;
+      background-color: rgba(0,0,0,0.5);
+      margin-left: 25px;
+      margin-top: 20px;
+  }
+  #end #about{
+      height: 300px;
+      width: 640px;
+      margin-left: 10px;
+  
+      display: inline-block;
+  }
+  #end #about h2{
+      text-align: center;
+      margin-top: 70px;
+      font-family: Times new Roman;
+      font-size: 50px;
+      color: white;
+  
+  }
+  #end #para{
+      height: 200px;
+      width: 640px;
+      display: inline-block;
+      position: absolute;
+  }
+  #end #para h3
+  {
+      font-family: times new roman;
+      font-size: 20px;
+      color: white
+  
+  }
+  #links{
+      height: 200px;
+      width: 640px;
+      margin-left: 20px;
+      display: inline-block;
+  }
+  #links h1{
+      margin-left: 100px;
+  }
+  #address
+  {
+      height: 200px;
+      width: 550px;
+      display: inline-block;
+      padding: 50px;
+  }
+  #address h2
+  {
+      font-size: 20px;
+      color: white;
+      margin-left: 300px;
+      text-align: left;
+      font-family: Bookman Old Style;
+  }
+  #copyright h4
+  {
+      color: black;
+      text-align: center;
+      text-transform: capitalize;
+  }
+  #socialIcons i
+  {
+      color: black;
+      font-size: 30px;
+      margin-left: 10px;	
+  }
+  #socialIcons
+  {
+      margin-left: 170px;
+  }
+  #socialIcons h4
+  {
+      color: white;
+      margin-left: -170px;
+      font-size: 24px;
+  
+  }
+  #more
+  {
+      height: 1000px;
+      width: 1340px;
+      display: none;
+  }
+  #showMore
+  {
+      margin-left: 550px;
+      margin-top: 50px;
+  }
+
+
+
+  /*------------------Contact Us Page -------------------------*/
+
+ 
+  
+  .contact-leftside img {
+    min-width: 80%;
+    max-height: 30rem;
+    height: auto;
+  }
+  
+  .contact-input-feild {
+    margin-bottom: 4rem;
+  }
+  
+  .contact-rightside form .form-control {
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    height: 5rem;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    padding-left: 1rem;
+    font-weight: lighter;
+  }
+  
+  .contact-rightside form .form-check-input {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .form-checkbox-style {
+    margin: 4rem 0;
+  }
+  
+  .contact-rightside form .main-hero-para {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin: 0;
+    font-weight: lighter;
+    width: 75%;
+    padding: 0 2rem;
+  }
+  .main-hero-container {
+    height: 80vh;
+    display: flex;
+     background-color: aqua; 
+  }
+  
+  .main-hero-container h1 {
+    text-transform: capitalize;
+    font-weight: bolder;
+  }
+  
+  .main-hero-para {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin: 3rem 0 5rem 0;
+    font-weight: lighter;
+    width: 75%;
+  }
+  
+  .main-hero-container h3 {
+    font-weight: lighter;
+  }
+  
+.btn-style {
+    width: 12rem;
+    height: 4rem;
+    border-radius: 2rem;
+    color: #fff;
+    background-color: var(--primary-color);
+    text-transform: capitalize;
+    font-size: 1.6rem;
+  }
+  
+  .btn-style:first-child {
+    margin-right: 2rem;
+  }
+  
+  .btn-style:hover {
+    border: 0.1rem solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+  }
+  
+  .btn-style-border {
+    border: 0.1rem solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+  }
+  
+  .btn-style-border:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    text-transform: capitalize;
+  }
